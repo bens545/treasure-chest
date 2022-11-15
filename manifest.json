@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Treasure-Chest",
+	"version": "0.0.1",
+	"author": "Ben Shaner",
+	"description": "An (unofficial) chest of tools for making the Treasury Direct website easier to use.",
+	"content_scripts": [
+		{
+			"matches": ["https://*.treasurydirect.gov/*"],
+			"js": ["input.js"]
+		}
+	]
+}
